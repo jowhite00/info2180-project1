@@ -43,6 +43,10 @@ h1 {
     background-color: var(--white);
 }
 
+/* .overview-hero h2 {
+    text-align: right;
+} */
+
 /* Bullet Points */
 ul {
     padding: 0px;
@@ -62,6 +66,91 @@ li a {
     font-size: var(--defaultFontFamily);
 }
 
-li a:hover{
+li a:hover {
     color: var(--navigationLinkHover);
+}
+
+
+/* Hero Overview Section */
+.overview-hero .container {
+    background-color: var(--heroOoverviewSection);
+    display: block;
+    padding: 10px;
+    width: 800px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.overview-hero-image img{
+    width: 350px;
+    height: 350px;
+    width: 50%;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.overview-hero-text{
+    text-align: right;
+}
+
+/* Covid19 test */
+.testing .container{
+    background-color: var(--covidTest_Background);
+    display: block;
+    padding: 10px;
+    width: 1000px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.testing .testing-desciption{
+    text-align: left;
+    color: var(--white);
+}
+
+.testing .cta .btn{
+    background-color: #48BB78;
+    position: relative;
+    border-radius: 5px; 
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    top: -50px;
+    left: 1000px;
+}
+
+
+/* Stories */
+.stories .container{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.stories .container article img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 50px;
+}
+
+.stories{
+    grid-column: 1/3;
+    grid-row:2;
+}
+
+.stories .container h2{
+    color: #5A67D8;
+    font-size: 18px;
+}
+
+.stories .container .article-body p a{
+    color: #5A67D8;
+}
+
+.stories .container .article-body{
+    padding: 50px;
 }
